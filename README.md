@@ -6,7 +6,7 @@ Perform the ETL (Extract, Transform, and Load) process on a crowdfunding dataset
 
 **Tools:**
 
-Python, Pandas, Jupyter Notebook, and PostgreSQL database:
+Python, Pandas, Jupyter Notebook, QuickDBD and PostgreSQL:
 
 **Summary:**
 
