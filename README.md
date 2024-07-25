@@ -4,15 +4,9 @@ Project Overview
 
 Perform the ETL (Extract, Transform, and Load) process on a crowdfunding dataset that contains information on backers who made pledges to fund independent projects or ventures. The data will be migrated from an Excel data file into a PostgreSQL database. During that process Python will be used to extract and transform the data, and SQL will be used to load and query the data.
 
-Resources
-
-CSV Files
-
-Python, PostgreSQL, ERD
-
 Tools
 
-Using Python, Pandas, Jupyter Notebook, and PostgreSQL database:
+Python, Pandas, Jupyter Notebook, and PostgreSQL database:
 
 Summary
 
