@@ -1,6 +1,5 @@
 ﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- Link to schema: https://app.quickdatabasediagrams.com/#/d/ujbeHA
--- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 DROP TABLE IF EXISTS category CASCADE;
 
@@ -48,8 +47,8 @@ CREATE TABLE "campaign" (
     "backers_count" smallint   NOT NULL,
     "country" char(2)   NOT NULL,
     "currency" char(3)   NOT NULL,
-    "launched_date" timestamp   NOT NULL,
-    "end_date" timestamp   NOT NULL,
+    "launched_date" date   NOT NULL,
+    "end_date" date   NOT NULL,
     "category_id" char(4)   NOT NULL,
     "subcategory_id" varchar(6)   NOT NULL,
     CONSTRAINT "pk_campaign" PRIMARY KEY (
