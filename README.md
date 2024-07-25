@@ -7,6 +7,7 @@ Perform the ETL (Extract, Transform, and Load) process on a crowdfunding dataset
 Resources
 
 CSV Files
+
 Python, PostgreSQL, ERD
 
 Tools
@@ -16,6 +17,9 @@ Using Python, Pandas, Jupyter Notebook, and PostgreSQL database:
 Summary
 
 Extracted and transformed data from CSV files
+
 Created a PostgreSQL database and tables using an ERD
+
 Loaded the CSV files into a PostegreSQL database
+
 Query the data to and generate reports
